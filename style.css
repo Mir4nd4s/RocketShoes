@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+  --button: #ff0000;
+  --main-background: #c4c4c4;
+  --background: #e5e5e5;
+  --text: #000;
+  --footer: #000;
+  --text-description: #9c9696;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: var(--background);
+  font-weight: 700;
+  color: var(--text);
+  
+}
+/* .nav {
+  position: absolute;
+  background: gray;
+  width: 100%;
+  max-height: 200px;
+} */
+main {
+  display: flex;
+  background: var(--background);
+  justify-content: flex-end;
+  align-items: center;
+}
+.card {
+  width: 540px;
+  height: 914px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 357px;
+  height: 533px;
+  display: grid;
+}
+.box h1{
+  font-size: 60px;
+}
+.box p{
+  font-size:16px;
+  color: var(--text-description);
+  margin: 21px 0;
+}
+.box h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.aside {
+  width: 900px;
+  height: 914px;
+  background: var(--main-background);
+  text-align: center;
+}
+.aside ul {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul {
+  display: flex;
+} 
+.footer ul li a{
+  padding: 0 40px;
+  font-size: 18px;
+  color: var(--text);
+}
+.arrow {
+  margin-left: 14px ;
+}
+.btn {
+  color: white;
+  font-size: 24px;
+}
+.btn1 {
+  width: 274px;
+  height: 90px;
+  font-size: 24px;
+  background-color: var(--button);
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 437px;
+  height: 166px;
+  background-color: black;
+} 
