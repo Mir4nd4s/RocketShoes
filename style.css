@@ -17,8 +17,6 @@
 }
 
 body {
-  max-width: 1440px;
-  min-width:500px;
   display: flex;
   flex-direction: column;
   background: var(--background);
@@ -26,16 +24,16 @@ body {
   color: var(--text);
 }
 
+.logo{
+
+}
 .navbar {
   display: flex;
-  width: 1320px;
+  width: 100%;
   align-items: center;
   position: absolute;
-  margin: 40px 60px 0;
-  justify-content: space-between;
-  border: 5px solid green;
-
-  
+  margin: 40px auto;
+  justify-content: space-around;
 } 
 nav ul {
   display: flex;
@@ -61,12 +59,11 @@ main {
   align-items: center;
 }
 .card {
-  width: 540px;
+  width: 100%;
   height: 914px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid red;
 }
 .box {
   width: 357px;
@@ -87,11 +84,10 @@ main {
 }
 
 .aside {
-  width: 900px;
+  width: 100%;
   height: 914px;
   background: var(--main-background);
   text-align: center;
-  border: 5px solid blue;
 }
 .aside ul {
   display: flex;
@@ -106,9 +102,7 @@ ul li .border {
 }
 .footer {
   display: flex;
-  justify-content: baseline;
-  width: 1430px;
-  border: 5px solid yellow;
+  justify-content: space-between;
 }
 .footer ul {
   display: flex;
@@ -141,4 +135,3 @@ ul li .border {
   height: 166px;
   background-color: black;
 }
-teste
